@@ -1,0 +1,1654 @@
+body {
+    max-width: 1440px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 104px;
+    padding-top: 40px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #FBF5F1;
+    overflow-x: hidden;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    margin-right: 289px;
+    object-fit: contain;
+}
+
+header nav {
+    display: flex;
+    gap: 70px;
+}
+
+header nav a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2B1B12;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 6px;
+    z-index: 3;
+    transition: border 0.3s;
+    cursor: pointer;
+}
+
+header nav a:hover {
+    border-color: #695346;
+    box-shadow: 0 0 3px #695346;
+
+}
+
+header .info-contact {
+    margin-left: 400px;
+    display: flex;
+    gap: 35px;
+}
+
+header .info-contact img {
+    display: inline-block;
+    width: 15px;
+    transition: transform 0.2s;
+    z-index: 5;
+}
+
+header .info-contact img:hover {
+    transform: scale(1.1);
+}
+
+.info-contact .search {
+    width: 22px;
+}
+
+.header-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 122px;
+    height: 48px;
+    background-color: #2B1B12;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: background 0.2s, color 0.2s, box-shadow 0.3s;
+}
+
+.header-btn:hover {
+    background: #FBF5F1;
+    color: #2B1B12;
+    border-color: #695346;
+    box-shadow: 0 5px 4px #695346;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-info {
+    margin-top: 167px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.hero-info h1 {
+    margin-bottom: 32px;
+    font-size: 68px;
+    font-weight: 800;
+    max-width: 514px;
+    width: 100%;
+    color: #2B1B12;
+}
+
+.hero-info p {
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 18px;
+    max-width: 413px;
+    width: 100%;
+    line-height: 160%;
+    color: #4F3527;
+}
+
+.hero-info a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 176px;
+    height: 58px;
+    background-color: #2B1B12;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 8px;
+    color: white;
+    padding: 0 10px;
+    border: 2px solid transparent;
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.3s;
+}
+
+.hero-info a:hover {
+    background-color: white;
+    color: #2B1B12;
+    border-color: #695346;
+    box-shadow: 0 5px 5px #695346;
+}
+
+.hero-img {
+    margin-top: -60px;
+    margin-left: 5%;
+}
+
+.counting {
+    width: 1150px;
+    height: 160px;
+    background: #DDC7BB;
+    border: none;
+    border-radius: 18px;
+    margin-right: 185px;
+    margin-left: 220px;
+    margin-top: -230px;
+    margin-bottom: -100px;
+    display: flex;
+    position: relative;
+    z-index: 10;
+    top: 130px;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.counting input,
+.counting select {
+    width: 252px;
+    height: 58px;
+    color: #695346;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FBF5F1;
+    padding-left: 15px;
+}
+
+.counting select {
+    appearance: none;
+}
+
+.counting img {
+    position: relative;
+    right: 40px;
+}
+
+.counting-submit {
+    width: 156px;
+    height: 58px;
+    margin-left: 22px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-color: #2B1B12;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.3s;
+
+}
+
+.counting-submit:hover {
+    background-color: white;
+    color: #2B1B12;
+    box-shadow: 5px 5px 5px #695346;
+    border-color: #695346;
+
+}
+
+
+.our-results {
+    display: flex;
+    width: 110vw;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    left: 60%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    gap: 140px;
+    margin-top: 144px;
+    background-color: #FFFFFF;
+}
+
+.our-results .results-info h2 {
+    max-width: 550px;
+    margin-top: 218px;
+    width: 100%;
+    height: 112px;
+    font-size: 40px;
+    color: #2B1B12;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.our-results .results-info p {
+    width: 514px;
+    height: 87px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #4F3527;
+    margin-bottom: -5px;
+}
+
+.our-results .our-results-img {
+    margin-left: 200px;
+    margin-top: 218px;
+}
+
+.our-results .results-info .results p {
+    width: 158px;
+    height: 22px;
+    font-weight: 600;
+}
+
+.our-results .results-info .results h3 {
+    font-size: 48px;
+    color: #4F3527;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.our-results .results-info .results {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.why-we {
+    padding-top: 144px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    margin-left: -5.7vw;
+    margin-right: -50vw;
+}
+
+
+.why-we .why-we-entry h3 {
+    height: 56px;
+    padding-left: 690px;
+    font-size: 40px;
+    color: #2B1B12;
+    font-weight: 800;
+    line-height: 140%;
+}
+
+.why-we .why-we-entry p {
+    padding-left: 520px;
+    margin-top: -10px;
+    text-align: center;
+    width: 800px;
+    height: 58px;
+    color: #4F3527;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.why-we .why-blocks {
+    padding-left: 250px;
+    margin-top: 64px;
+    display: flex;
+    gap: 80px;
+}
+
+.why-we .why-blocks .why {
+    width: 275px;
+    height: 350px;
+    background-color: white;
+    border: 5px solid #DDC7BB;
+    border-radius: 18px;
+    margin-bottom: 144px;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.why-we .why-blocks .why:hover {
+    box-shadow: 0 0 20px #695346;
+    transform: scale(1.01);
+}
+
+
+.why-we .why-blocks .why img {
+    background-color: #FBF5F1;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 24px;
+}
+
+.why-we .why-blocks .why h3 {
+    color: #2B1B12;
+    font-weight: 700;
+    padding-left: 24px;
+    padding-right: 50px;
+    font-size: 18px;
+}
+
+.why-we .why-blocks .why p {
+    color: #4F3527;
+    font-weight: 600;
+    margin-left: 24px;
+    font-size: 16px;
+    margin-bottom: 37px;
+    line-height: 130%;
+
+}
+
+.popular-residences {
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    margin-left: -5.7vw;
+    margin-right: -25vw;
+}
+
+.popular-residences h2 {
+    text-align: center;
+    margin-bottom: 60px;
+
+    color: #2B1B12;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 140%;
+}
+
+.residences {
+    display: flex;
+    gap: 80px;
+    margin-left: 240px;
+    margin-bottom: 143px;
+}
+
+.residences .r-img {
+    width: 402px;
+    height: 402px;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}
+
+.residence {
+    background-color: #eed9cf;
+    border: none;
+    border-radius: 18px;
+}
+
+.location-residence {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.location-residence p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.location-residence img {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
+
+.ditails-residence {
+    display: flex;
+    margin-left: 20px;
+    gap: 39px;
+    margin-bottom: 25px;
+}
+
+.ditails-residence img {
+    width: 24px;
+    height: 24px;
+}
+
+.ditails-residence div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #4F3527;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-price-residence {
+    display: flex;
+    gap: 108px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.btn-price-residence a {
+    height: auto;
+    width: auto;
+    padding: 11px 21px;
+    background-color: #2B1B12;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn-price-residence a:hover {
+    transform: scale(1.05);
+}
+
+.btn-price-residence p {
+    font-size: 22px;
+    color: #4F3527;
+    font-weight: 700;
+}
+
+.what-people-say h3 {
+    width: 400px;
+    height: 112px;
+    color: #2B1B12;
+    margin-top: 56px;
+    margin-left: 650px;
+    line-height: 140%;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 63px;
+}
+
+.reviews-window {
+    margin-left: 240px;
+    margin-bottom: 100px;
+    width: 1240px;
+    overflow: hidden;
+}
+
+.reviews-line {
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+    transition: transform 0.5s;
+}
+
+
+.review {
+    width: 382px;
+    height: 430px;
+    background-color: #ebd4c9;
+    border-radius: 18px;
+}
+
+
+.review #review-photo {
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+
+.review #review-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #4F3527;
+    margin-left: 24px;
+    margin-top: 22px;
+    margin-bottom: 33px;
+    line-height: 23px;
+}
+
+
+.review .human {
+    display: flex;
+    flex-direction: row;
+}
+
+.review .human .human-info {
+    margin-top: 10px;
+
+}
+
+.review .human p:first-child {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2B1B12;
+
+}
+
+.review .human p:last-child {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2B1B12;
+    margin-top: -10px;
+}
+
+.review .human img {
+    width: 64px;
+    height: 64px;
+    margin-top: 28px;
+    margin-left: 19px;
+    border-radius: 32px;
+    margin-right: 11px;
+}
+
+.review .rating {
+    width: 59px;
+    height: 24px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: -40px;
+    background-color: #FFFFFF;
+    gap: 4px;
+    border-radius: 4px;
+}
+
+.review .rating span {
+    font-size: 16px;
+    color: #2B1B12;
+    font-weight: 600;
+}
+
+.arrows {
+    margin-top: -40px;
+    margin-left: 775px;
+}
+
+.arrows span {
+    width: 58px;
+    height: 58px;
+    padding: 15px 22px;
+    background-color: #2B1B12;
+    border-radius: 29px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.arrows span:first-child {
+    margin-right: 36px;
+}
+
+.arrows span:hover {
+    box-shadow: 0 0 5px #140f0c;
+}
+
+.get-help {
+    margin-top: 56px;
+    padding-top: 144px;
+    background-color: white;
+    width: 100vw;
+    margin-left: -110px
+}
+
+.get-help h3 {
+    color: #2B1B12;
+    font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+}
+
+.details-help {
+    display: flex;
+    gap: 98px;
+    justify-content: center;
+    color: #543E32;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.details-help div {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.details-help div img {
+    width: 26px;
+    height: 26px;
+}
+
+.form-help {
+    margin-top: 66px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-help img {
+    width: 22px;
+    height: 22px;
+    position: relative;
+    left: 45px;
+    top: 18px;
+}
+
+.form-help input {
+    width: 505px;
+    height: 58px;
+    background-color: #ebd4c9;
+    border-radius: 8px;
+    padding-left: 56px;
+    margin-bottom: 149px;
+    font-size: 18px;
+}
+
+.form-help input[type="email"]:invalid {
+    border-color: red;
+}
+
+.form-help input[type="email"]:valid {
+    border-color: green;
+}
+
+.form-help ::placeholder {
+    color: #543E32;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form-help #submit-help {
+    background-color: #2B1B12;
+    color: #FFFFFF;
+    width: 156px;
+    height: 58px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-left: 20px;
+    transition: box-shadow 0.1s;
+}
+
+.form-help #submit-help:hover {
+    box-shadow: 0 5px 5px #695346;
+}
+
+footer {
+    background-color: #DDC7BB;
+    width: 100vw;
+    margin-left: -110px;
+    padding-top: 80px;
+    padding-bottom: 202px;
+}
+
+.footer-details {
+    margin-left: 104px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 102px;
+    margin-left: 520px;
+    margin-top: -140px;
+}
+
+.footer-details p {
+    width: 219px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #4F3527;
+    line-height: 130%;
+}
+
+.footer-nav div img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-nav div {
+    line-height: 34px;
+    width: 200px;
+    min-width: max-content;
+}
+
+.footer-nav div a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4F3527;
+    cursor: pointer;
+    transition: transform 0.3s, color 0.2s;
+}
+
+.footer-nav div a:hover {
+    transform: translateY(-2px);
+    color: #2B1B12;
+}
+
+.footer-nav div p {
+    font-size: 22px;
+    color: #2B1B12;
+    font-weight: 700;
+}
+
+.footer-nav .four-column div {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+
+}
+
+.footer-nav :is(.four-column, .column) a {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+
+@media (max-width: 1024px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+
+    body {
+        max-width: 100%px;
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 50px;
+        padding-right: 140px;
+    }
+
+
+
+    header .logo {
+        width: 100px;
+    }
+
+    header nav {
+        gap: 40px;
+    }
+
+    header nav a {
+        font-size: 18px;
+    }
+
+    header .info-contact {
+        position: absolute;
+        top: 100px;
+        right: 90px;
+    }
+
+    header .info-contact .header-btn {
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .hero {
+        margin-top: -50px;
+    }
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .hero a {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .hero img {
+        width: 550px;
+        margin-top: 210px;
+        margin-left: -130px;
+        margin-bottom: 144px;
+    }
+
+    .counting {
+        width: 900px;
+        margin-left: 20px;
+    }
+
+    .counting input {
+        width: 170px;
+        height: 50px;
+    }
+
+    .counting input:placeholder-shown {
+        font-size: 15px;
+    }
+
+    .counting select {
+        width: 170px;
+        height: 50px;
+    }
+
+    .counting select {
+        font-size: 15px;
+    }
+
+    .counting-input img {
+        margin-bottom: -3px;
+    }
+
+    .counting button {
+        width: 130px;
+        font-size: 16px;
+    }
+
+    .our-results {
+        margin-left: -550px;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .our-results img {
+        margin-left: 50px;
+        margin-bottom: 0px;
+
+    }
+
+    .our-results .results-info {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -150px;
+        margin-bottom: 50px;
+    }
+
+    .our-results .results-info h2 {
+        text-align: center;
+        margin-left: 70px;
+    }
+
+    .our-results .results-info p {
+        text-align: center;
+        position: relative;
+        left: 70px;
+    }
+
+    .our-results .results {
+        margin-left: 30px;
+    }
+
+    .our-results .results p {
+        position: relative;
+        left: -40px;
+    }
+
+    .why-we {
+        margin-left: -480px;
+    }
+
+    .why-we .why-we-entry h3 {
+        font-size: 40px;
+    }
+
+    .why-we .why-we-entry p {
+        max-width: 750px;
+        width: 100%;
+        font-size: 18px;
+        margin-left: 35px;
+    }
+
+    .why-we .why-blocks {
+        gap: 15px;
+        margin-left: 195px;
+    }
+
+    .why-we .why-blocks .why {
+        width: 225px;
+        padding-left: -10px !important;
+    }
+
+    .why-we .why-blocks .why img {
+        width: 40px;
+    }
+
+    .why-we .why-blocks .why h3 {
+        font-size: 16px;
+        padding-left: 15px;
+    }
+
+    .why-we .why-blocks .why p {
+        margin-left: 15px;
+        margin-right: 7px;
+        word-break: break-word;
+    }
+
+    .popular-residences {
+        margin-left: -240px;
+    }
+
+    .popular-residences .residences {
+        gap: 30px;
+        margin-left: 220px;
+    }
+
+    .popular-residences .residence {
+        width: 300px;
+        height: 500px;
+    }
+
+    .popular-residences .residence .r-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .popular-residences .residence .location-residence img {
+        width: 7%;
+        height: 7%;
+        margin-left: 10px;
+    }
+
+    .popular-residences .residence .location-residence p {
+        font-size: 15px;
+    }
+
+    .popular-residences .residence .ditails-residence img {
+        margin-left: -10px;
+    }
+
+    .popular-residences .residence .ditails-residence p {
+        font-size: 16px;
+    }
+
+    .popular-residences .residence .btn-price-residence {
+        margin-left: 10px;
+    }
+
+    .popular-residences .residence .btn-price-residence p {
+        font-size: 20px;
+        margin-left: -70px;
+    }
+
+    .what-people-say {
+        margin-left: -350px;
+    }
+
+    .what-people-say .reviews-line {
+        gap: 35px;
+        margin-left: 84px;
+    }
+
+    .what-people-say .review {
+        width: 300px;
+    }
+
+    .what-people-say .review #review-photo {
+        width: 300px;
+    }
+
+    .what-people-say .review .human img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .review .rating {
+        margin-left: 230px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .what-people-say .review .human .human-info {
+        margin-top: 15px;
+    }
+
+    .what-people-say .review .human p:first-child {
+        font-size: 17px;
+    }
+
+    .get-help {
+        margin-left: -50px;
+    }
+
+
+    .get-help .details-help {
+        gap: 10px;
+        margin-left: 30px;
+    }
+
+    .get-help .details-help div img {
+        margin-right: -36px;
+        margin-left: 25px;
+        margin-top: -15px;
+    }
+
+    .get-help .details-help p {
+        font-size: 17px;
+        text-align: center;
+
+    }
+
+    footer {
+        padding-left: 70px;
+        padding-bottom: 80px;
+    }
+
+    footer .footer-details {
+        margin-left: 430px;
+    }
+
+    footer .footer-details p {
+        text-align: center;
+        margin-left: -140px;
+        width: 400px;
+    }
+
+    footer .footer-nav {
+        margin-top: 50px;
+        margin-left: 20px;
+        gap: 35px;
+    }
+
+    footer .footer-nav a {
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    header nav {
+        margin-left: -180px;
+    }
+
+
+    header nav a {
+        font-size: 16px;
+    }
+
+    header .info-contact {
+        margin-right: -35px;
+    }
+
+    .hero .hero-info h1 {
+        font-size: 35px;
+    }
+
+    .hero .hero-info p {
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+
+    .hero .hero-info a {
+        width: 150px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .hero .hero-img img {
+        width: 400%;
+        margin-left: -150px;
+        margin-top: 290px;
+    }
+
+    .counting {
+        width: 650px;
+        margin-left: -35px;
+        padding-left: 90px;
+        padding-top: 15px;
+    }
+
+    .counting input {
+        width: 150px;
+        padding-left: 5px;
+    }
+
+    .counting select {
+        width: 160px;
+        padding-left: 6px;
+    }
+
+    .counting .counting-input {
+        position: relative;
+        bottom: 9px;
+    }
+
+    .counting .counting-input img {
+        position: absolute;
+        top: 17px;
+       right: 7px;
+
+    }
+
+
+    .counting button {
+        width: 120px;
+        height: 50px;
+        margin-right: 90px;
+        margin-bottom: 20px;
+    }
+
+    .our-results {
+        margin-left: -450px;
+    }
+
+    .our-results img {
+        width: 500px;
+        margin-left: -5px;
+    }
+
+    .our-results .results-info {
+        position: relative;
+    left: 20px;
+    }
+
+    .our-results .results-info h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .our-results .results-info p {
+        font-size: 18px;
+        margin-top: -10px;
+        margin-left: 20px;
+    }
+
+    .our-results .results-info .results {
+        gap: 30px;
+        margin-left: 80px;
+    } 
+
+
+    .our-results .results-info .results h3 {
+        font-size: 50px;
+    }
+
+    .our-results .results-info .results p {
+        font-size: 17px;
+        width: 200px;
+        margin-left: -15px;
+        margin-top: 5px;
+    }
+
+    .why-we {
+        margin-top: -40px;
+        margin-left: -590px;
+    }
+
+    .why-we .why-we-entry h3 {
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+    .why-we .why-we-entry p {
+    font-size: 17px;
+    width: 700px;
+    margin-left: 50px;
+    }
+
+    .why-we .why-blocks {
+        width: 100%;
+        max-width: 700px;
+        flex-wrap: wrap;
+        gap: 65px;
+        margin-left: 400px;
+        margin-bottom: 140px;
+    }
+
+    .why-we .why-blocks .why {
+        margin-bottom: -20px;
+    }
+
+    .popular-residences {
+        margin-left: -50px;
+    }
+
+    .popular-residences h2 {
+        font-size: 30px;
+        margin-left: -30px;
+    }
+
+    .popular-residences .residences {
+        margin-left: 190px;
+        flex-direction: column;
+    }
+
+    .popular-residences .residence {
+       width: 400px;
+    }
+
+    .popular-residences .residence .location-residence img {
+        width: 5%;
+    }
+
+    .popular-residences .residence .r-img {
+        width: 100%;
+        height: 70%;
+    }
+
+    .popular-residences .residence .ditails-residence {
+        margin-top: -10px;
+    }
+
+    .popular-residences .residence .btn-price-residence p {
+        font-size: 20px;
+    }
+
+    .popular-residences .residence .btn-price-residence {
+        margin-top: -30px;
+        gap: 200px;
+    }
+
+    .what-people-say {
+        margin-left: -470px;
+    }
+    .what-people-say h3 {
+        font-size: 32px;
+        margin-left: 520px;
+        margin-bottom: 10px;
+        width: 600px;
+    }
+     .what-people-say .reviews-line {
+        margin-left: 220px;
+     }
+
+     .what-people-say .arrows {
+        margin-left: 730px;
+     }
+
+     .get-help h3 {
+        font-size: 30px;
+        margin-top: -50px;
+
+     }
+
+     .get-help .details-help {
+        margin-left: 20px;
+     }
+
+          .get-help .details-help div {
+            gap: 30px;
+            margin-left: -30px;
+            margin-top: 30px;
+          }
+
+     .get-help .details-help div p {
+        font-size: 16px;
+        margin-top: -10px;
+        height: 10px;
+        width: 300px;
+     }
+
+     .get-help .details-help div:first-child img {
+        margin-right: -55px;
+     }
+
+     .get-help .form-help input {
+        width: 100%;
+        max-width: 400px;
+     }
+     .get-help .form-help input:placeholder-shown {
+        font-size: 14px;
+     }
+
+     .get-help .form-help #submit-help {
+        width: 150px;
+        height: 50px;
+        margin-top: 7px;
+     }
+
+     footer .footer-details {
+        margin-left: 150px;
+        margin-top: -50px;
+     }
+
+      footer .footer-details img {
+        margin-left: -140px;
+      }
+
+      footer .footer-details p {
+        text-align: left;
+        font-size: 17px;
+      }
+
+      footer .footer-nav {
+        flex-wrap: wrap;
+        margin-top: 10px;
+        column-gap: 120px;
+        margin-left: 90px;
+      }
+
+      footer .footer-nav .column p {
+        font-size: 18px;
+      }
+
+      footer .footer-nav .column a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    header .logo {
+        width: 80px;
+        margin-left: -20px;
+        margin-top: -70px;
+    }
+
+    header nav {
+        margin-left: -355px;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    header nav a {
+        font-size: 16px;
+    }
+
+    header .info-contact {
+        margin-top: 30px;
+        margin-right: -65px;
+        gap: 25px;
+    }
+
+     header .info-contact .search {
+        width: 20px;
+     }
+
+     header .info-contact .human {
+        width: 15px;
+     }
+
+     header .info-contact .header-btn {
+        height: 35px;
+     }
+
+     .hero .hero-info h1 {
+        font-size: 30px;
+        margin-bottom: 2px;
+     }
+
+     .hero .hero-info p {
+        font-size: 16px;
+        width: 400px;
+     }
+
+     .hero {
+        flex-direction: column;
+     }
+
+      .hero .hero-img img {
+        width: 500px;
+        margin-top: 0;
+        margin-left: -70px;
+      }
+
+      .counting {
+        width: 100%;
+        margin-left: 0px;
+        flex-wrap: wrap;
+        height: 300px;
+        padding-top: 50px;
+      }
+
+      .counting .counting-input {
+        margin-right: 90px;
+      }
+
+      .counting .counting-input input {
+        width: 300px;
+      }
+
+      .counting .counting-input select {
+        width: 310px;
+      }
+
+      .counting button {
+        margin-left: -10px;
+      }
+
+      .our-results {
+        margin-left: -250px;
+      }
+
+      .our-results .our-results-img img {
+        width: 400px;
+        margin-left: -130px;
+      }
+
+      .our-results .results-info {
+        margin-left: -100px;
+      }
+
+      .our-results .results-info h2 {
+        font-size: 25px;
+        width: 100%;
+        max-width: 400px;
+        margin-left: 150px;
+      }
+
+      .our-results .results-info p {
+        font-size: 15px;
+        max-width: 350px;
+        width: 100%;
+        margin-left: 100px;
+        margin-top: -30px;
+      }
+
+      .our-results .results-info .results {
+        gap: 40px;
+        margin-bottom: 9px;
+        margin-left: 170px;
+        z-index: 0;
+        margin-bottom: 50px;
+      }
+
+      .our-results .results-info .results h3 {
+        font-size: 28px;
+      }
+
+      .our-results .results-info .results div p {
+        font-size: 16px;
+        width: 100px;
+        margin-left: 12px;
+        height: 50px;
+      }
+
+      .why-we {
+        margin-left: -730px;
+        margin-top: -109px;
+      }
+
+      .why-we  .why-we-entry h3 {
+        font-size: 25px;
+        margin-left: 80px;
+      }
+
+      .why-we  .why-we-entry p {
+        font-size: 15px;
+        width: 430px;
+        margin-left: 190px;
+        margin-top: -20px;
+      }
+
+     .why-we .why-blocks {
+        column-gap: 0px;
+        margin-left: 450px;
+     }
+
+     .why-we .why-blocks .why {
+        width: 200px;
+        margin-right: 25px;
+     }
+
+     .popular-residences {
+        margin-left: -50px;
+        width: 480px;
+     }
+
+     .popular-residences h2 {
+        font-size: 25px;
+        margin-left: 40px;
+        width: 400px;
+     }
+
+
+      .popular-residences .residences {
+        margin-left: 70px;
+      }
+
+      .popular-residences .residences .residence {
+        width: 350px;
+      }
+
+      .popular-residences .residences .residence .btn-price-residence p {
+        font-size: 17px;
+        margin-left: -100px;
+      }
+
+      .popular-residences .residences .residence .btn-price-residence {
+        margin-top: -25px;
+      }
+
+      .what-people-say {
+        margin-left: -600px;
+      }
+
+      .what-people-say h3 {
+        font-size: 25px;
+        margin-left: 490px;
+      }
+
+      .what-people-say .reviews-line {
+        margin-left: 340px;
+      }
+
+      .what-people-say .review {
+        width: 250px;
+        height: 400px;
+      }
+
+      .what-people-say .review #review-photo {
+        object-fit: cover;
+        width: 100%;
+      }
+
+      .what-people-say .review .human {
+        margin-top: -10px;
+      }
+
+      .what-people-say .review .human img {
+        width: 20%;
+        height: 30%;
+      }
+
+
+      .what-people-say .review #review-text {
+        font-size: 14px;
+        margin-top: 45px;
+      }
+
+      .what-people-say .review .rating {
+margin-top: -57PX;
+margin-left: 180px;
+      }
+
+      .what-people-say .review:nth-child(2) .rating {
+        margin-top: -77px;
+      }
+
+       .what-people-say .review .rating span {
+        font-size: 12px;
+       }
+
+       .arrows span {
+        padding: 10px 18px;
+       }
+
+       .arrows span:first-child {
+        margin-left: -10px;
+       }
+
+       .get-help h3 {
+        font-size: 25px;
+        margin-top: -70px;
+       }
+
+       .get-help .details-help {
+        flex-direction: column;
+       }
+
+       .get-help .form-help {
+        flex-direction: column;
+        gap: 10px;
+       }
+
+       .get-help .form-help input{
+        margin-bottom:  5px;
+        margin-top: -30px;
+        margin-left: 35px;
+        width: 350px;
+       }
+
+       .get-help .form-help img {
+        margin-left: 10px;
+        margin-bottom: -2px;
+       }
+
+       .get-help .form-help #submit-help {
+        margin-bottom: 70px;
+        margin-left: 160px;
+       }
+
+       footer .footer-details img {
+        width: 80px;
+       }
+
+       footer .footer-details p {
+        font-size: 16px;
+       }
+
+       footer .footer-nav {
+        margin-left: 10px;
+       }
+
+       footer .footer-nav .column {
+       }
+
+       footer .footer-nav .column p {
+        font-size: 16px;
+        margin-bottom: 8px;
+       }
+
+       footer .footer-nav .column a {
+  font-size: 15px;
+  margin-top: -5px;
+       }
+
+       footer .footer-nav .four-column p {
+font-size: 16px;
+margin-bottom: 8px;
+       }
+
+       footer .footer-nav .four-column a {
+        font-size: 15px;
+        margin-top: -5px;
+       }
+
+       footer .footer-nav .four-column div {
+        gap: 10px;
+       }
+
+       footer .footer-nav .four-column img {
+        width: 20px;
+       }
+
+
+
+
+}
+
